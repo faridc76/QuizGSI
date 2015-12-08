@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/evaluerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merci de laisser une évaluation!"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RatingBar
+        android:id="@+id/evaluerRatingBar"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <Button
+        android:id="@+id/evaluerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider" />
+
+</LinearLayout>

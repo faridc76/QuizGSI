@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/statistiquestextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La moyenne de vos notes :"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/statistiquesNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/statistiquestextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La moyenne des évaluations :"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/statistiquesEvaluation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/statistiquestextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le nombre de vos parties :"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/statistiquesNombrePartie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Button
+        android:id="@+id/statistiquesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour" />
+
+</LinearLayout>

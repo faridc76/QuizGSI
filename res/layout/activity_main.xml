@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="QUIZ GSI"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/mainJouer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jouer" />
+
+    <Button
+        android:id="@+id/mainEvaluer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evaluer" />
+
+    <Button
+        android:id="@+id/mainStatistiques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statistiques" />
+
+    <Button
+        android:id="@+id/mainAPropos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A propos" />
+
+    <Button
+        android:id="@+id/mainQuitter"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quitter" />
+
+</LinearLayout>

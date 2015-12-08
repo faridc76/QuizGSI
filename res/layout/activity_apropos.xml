@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<ImageView
+    android:id="@+id/aProposImage"
+    android:layout_width="176dp"
+    android:layout_height="111dp"
+    android:src="@drawable/sangoku" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/aProposNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOUAKRIA"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/aProposPrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Farid"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/aProposClasse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GSI IR"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Button
+        android:id="@+id/aProposButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour" />
+
+</LinearLayout>
+
+</LinearLayout>
