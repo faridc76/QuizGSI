@@ -7,7 +7,7 @@
         android:id="@+id/evaluerTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Merci de laisser une évaluation!"
+        android:text="@string/merci_de_laisser_une_valuation_"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <RatingBar

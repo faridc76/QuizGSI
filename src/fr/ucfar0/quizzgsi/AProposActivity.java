@@ -8,15 +8,24 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
+import fr.ucfar0.quizzgsi.model.RequeteHTTP;
 
 public class AProposActivity extends Activity implements OnClickListener {
 
+	Button but;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_apropos);
 		//On recupere le button de retour
-		Button but = (Button) findViewById(R.id.aProposButton);
+		but = (Button) findViewById(R.id.aProposButton);
+		
+		//On afiche le contnu de http://cabani.free.fr/gsi/index.php
+		String webContent = new RequeteHTTP("http://cabani.free.fr/gsi/index.php").execute();
+		TextView tv = (TextView) findViewById(R.id.textViewAffichage);
+		tv.setText(webContent);
 		//On active l'écouteur dessus
 		but.setOnClickListener(this);
 	}
@@ -42,10 +51,16 @@ public class AProposActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		// On crée une activité pour retourné au menu principale
-		Intent intent = new Intent(this, MainActivity.class);
-		startActivity(intent);
-		//On quitte l'activité
-		finish();
+		Intent intent;
+		if (v == but) {
+			// On crée une activité pour retourné au menu principale
+			intent = new Intent(this, MainActivity.class);
+			startActivity(intent);
+			//On quitte l'activité
+			finish();
+		} else { 
+			intent = new Intent(this, MapActivity.class);
+			startActivity(intent);
+		}
 	}
 }

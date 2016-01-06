@@ -7,14 +7,14 @@
 	        android:id="@+id/textQuestion"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:text="Question :"
+	        android:text="@string/question_"
 	        android:textAppearance="?android:attr/textAppearanceLarge" />
 	
 	    <TextView
 	        android:id="@+id/QuestionQuiz"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:text="Medium Text"
+	        android:text=""
 	        android:textAppearance="?android:attr/textAppearanceMedium" />
 	
 	    <RadioGroup
@@ -26,38 +26,38 @@
 	            android:id="@+id/radio1"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="RadioButton" />
+	            android:text="" />
 	
 	        <RadioButton
 	            android:id="@+id/radio2"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:checked="true"
-	            android:text="RadioButton" />
+	            android:text="" />
 	
 	        <RadioButton
 	            android:id="@+id/radio3"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="RadioButton" />
+	            android:text="" />
 	
 	        <RadioButton
 	            android:id="@+id/radio4"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="RadioButton" />
+	            android:text="" />
 	    </RadioGroup>
 
 	    <TextView
 	        android:id="@+id/textViewRang"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:text="TextView" />
+	        android:text="" />
 
 	    <Button
 	        android:id="@+id/valider"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:text="Valider" />
+	        android:text="@string/valider" />
 
 </LinearLayout>

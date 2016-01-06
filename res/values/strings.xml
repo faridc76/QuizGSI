@@ -8,5 +8,11 @@
     <string name="title_activity_statistiques">StatistiquesActivity</string>
     <string name="title_activity_evaluer">EvaluerActivity</string>
     <string name="title_activity_quiz">QuizActivity</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <string name="chrono_27">Chrono: 27</string>
+    <string name="merci_de_laisser_une_valuation_">Merci de laisser une évaluation!</string>
+    <string name="question_">Question :</string>
+    <string name="valider">Valider</string>
+    <string name="title_activity_map">MapActivity</string>
 
 </resources>
